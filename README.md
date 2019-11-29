@@ -1,4 +1,4 @@
-Code Challenge - Bank Accounting
+**Code Challenge - Bank Accounting**
 
 Contexto
 
@@ -36,3 +36,61 @@ Fluxo excepcional: Conta inexistente
 - Você deve usar Ruby ou Elixir para implementar este projeto
 - O código deve ser versionado usando git
 - O repositório deve conter um README documentando como o sistema pode ser usado e como outra pessoa pode contribuir com o código, similar a um projeto Open Source
+
+**Execução e Testes**
+
+Instalar as gems:
+
+```
+bundle install
+```
+
+Crias as bases de dados - development e test:
+
+```
+rails db:create
+```
+
+Executar migrações:
+
+```
+rails db:migrate
+```
+
+Executar a seed:
+
+```
+rails db:seed
+```
+
+Executar a aplicação:
+
+```
+rails s
+```
+
+Executar testes:
+
+```
+rspec
+```
+
+Rotas disponíveis:
+
+```
+rails routes
+```
+
+**Contribuir com o código**
+
+Para contribuir com o código, siga os passos a seguir:
+
+- Faça o fork do projeto;
+- Clone seu fork usando a URL do projeto (git or https);
+- Crie uma nova branch para implementar sua funcionalidade;
+- Faça suas alterações e adicione um novo commit;
+- Verifique se seus testes estão passando;
+- Submeta seu código para o repositório remoto;
+- Submeta seu código para o repositório remoto;
+- Vá para a página do fork no seu Github;
+- Abra um novo Pull request;
